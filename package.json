@@ -1,0 +1,17 @@
+{
+  "name": "food-waste-system-2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+     "backend": "cd backend && npm run dev",
+     "frontend": "cd frontend && npm run dev",
+     "dev": "concurrently \"npm run backend\" \"npm run frontend\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
